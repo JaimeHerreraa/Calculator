@@ -3,7 +3,7 @@ import "../stylesheets/ClearButton.css"
 
 const ClearButton = (props) => {
     return (
-        <div className="clear-Button" onClick={() => {}}>{props.children}</div>
+        <div className="clear-Button" onClick={() => {props.handleClick()}}>{props.children}</div>
     )
 }
 
